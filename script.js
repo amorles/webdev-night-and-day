@@ -19,5 +19,10 @@ $(document).ready(function() {
         else {
             $('#sky').removeClass('night').addClass('day');
         }
+        if ($('#moonspot1').hasClass('visible')) {
+            $('#moonspot1').removeClass('visible');
+        } else {
+            $('#moonspot1').addClass('visible');
+        }
     });
 });
