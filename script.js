@@ -24,5 +24,15 @@ $(document).ready(function() {
         } else {
             $('#moonspot1').addClass('visible');
         }
+        if ($('#moonspot2').hasClass('visible')) {
+            $('#moonspot2').removeClass('visible');
+        } else {
+            $('#moonspot2').addClass('visible');
+        }
+        if ($('#moonspot3').hasClass('visible')) {
+            $('#moonspot3').removeClass('visible');
+        } else {
+            $('#moonspot3').addClass('visible');
+        }
     });
 });
